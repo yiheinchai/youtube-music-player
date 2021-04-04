@@ -13,28 +13,9 @@
     <link rel="stylesheet" href="style.css" />
     <meta name="theme-color" content="#009578" />
     <link rel="manifest" href="manifest.json" />
-    <link rel="serviceWorker" href="sw.js" />
-    <script type="module" src="src/db.js"></script>
-    <script type="module" src="src/index.js"></script>
-  </head>
-
-  <body>
-    <div class="container-fluid header mx-4 mb-3 mt-3">
-      <div class="row d-flex justify-content-around">
-        <div class="col-12">
-          <button class="btn btn-outline-primary playMusic">Play Music</button>
-          <audio controls class="audioElement">
-            <source src="audio/audioenabled.mp3" type="audio/mp3" />
-          </audio>
-        </div>
-      </div>
-    </div>
-
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/moment-with-locales.min.js"></script>
-    <script type="module" src="data.js"></script>
     <script type="module" src="script.js"></script>
-  </body>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
 
   <body>
     <div class="container-fluid header mx-4 mb-3 mt-3">
@@ -51,11 +32,21 @@
       </div>
     </div>
     <div class="container-fluid playListLibraryContainer">
-      <h3>Playlists</h3>
-      <div class="mt-5 row d-flex justify-content-center playListLibrary"></div>
+      <div class="row mt-4 mb-3">
+        <div class="col-6 d-flex justify-content-end">
+          <h3>Current Playlist:</h3>
+        </div>
+        <div class="col-6 d-flex justify-content-start playListName"></div>
+      </div>
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+          <audio controls style="width: 95%" class="audioElement">
+            <source src="audio/goodvibes (1).mp3" type="audio/mp3" />
+          </audio>
+        </div>
+      </div>
+      <h3 class="mt-3">Playlists</h3>
+      <div class="mt-3 row d-flex justify-content-center playListLibrary"></div>
     </div>
-
-    <script src="js/bootstrap.min.js"></script>
-    <script type="module" src="script.js"></script>
   </body>
 </html>

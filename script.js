@@ -2,10 +2,6 @@ let currentPlaylist;
 const playLists = { chineseSong: 6, goodvibes: 7 };
 const playListNames = Object.keys(playLists);
 
-document.querySelector(".playMusic").addEventListener("click", function () {
-  document.querySelector(".audioElement").play();
-});
-
 playListNames.forEach((ele, i) => {
   const playListCard = document.createElement("div");
   playListCard.classList.add("col-lg-3");
@@ -23,6 +19,7 @@ playListNames.forEach((ele, i) => {
 
 function initialisePlaylist(playListName) {
   document.querySelector(".audioElement").removeEventListener("ended", audioPlayer);
+  document.querySelector(".playListName").innerHTML = `<h3>${playListName}</h3>`;
   document
     .querySelector(".audioElement")
     .addEventListener("ended", audioPlayer.bind(null, playListName));

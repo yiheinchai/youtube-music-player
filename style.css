@@ -4,7 +4,7 @@
 }
 
 .header {
-  background-color: rgb(207, 226, 255);
+  background-color: rgb(224, 207, 252);
   border-radius: 2rem;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -22,7 +22,10 @@ h3 {
   text-align: center;
 }
 
-.btn-outline-primary {
+.btn-outline-primary,
+.btn-primary {
   border-radius: 1rem;
   padding: 2rem;
+  background-color: rgb(89, 53, 154);
+  color: rgb(224, 207, 252);
 }

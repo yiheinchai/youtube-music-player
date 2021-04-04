@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link rel="icon" href="images/icon_x144.png" />
+    <title>Whatsapp Reader</title>
+    <link rel="apple-touch-icon" href="images/icon_x144apple.png" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="theme-color" content="#009578" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="serviceWorker" href="sw.js" />
+    <script type="module" src="src/db.js"></script>
+    <script type="module" src="src/index.js"></script>
+  </head>
+
+  <body>
+    <div class="container-fluid header mx-4 mb-3 mt-3">
+      <div class="row d-flex justify-content-around">
+        <div class="col-12">
+          <button class="btn btn-outline-primary playMusic">Play Music</button>
+          <audio controls class="audioElement">
+            <source src="audio/audioenabled.mp3" type="audio/mp3" />
+          </audio>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/moment-with-locales.min.js"></script>
+    <script type="module" src="data.js"></script>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

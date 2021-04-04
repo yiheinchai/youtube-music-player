@@ -1,12 +1,12 @@
 {
   "name": "Youtube Music Player",
   "short_name": "Youtube Music",
-  "start_url": "https://yiheinchai.github.io/whatsapp-backup-viewer/",
+  "start_url": "https://yiheinchai.github.io/youtube-music-player/",
   "scope": ".",
   "background_color": "#6dcdb1",
   "theme_color": "#009578",
   "display": "standalone",
-  "description": "Never lose your chats",
+  "description": "Fulfil your music needs",
   "dir": "ltr",
   "lang": "en-US",
   "icons": [

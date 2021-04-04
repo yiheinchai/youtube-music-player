@@ -1,29 +1,4 @@
-.chatScreen {
-  background-color: aliceblue;
-  padding: 1rem;
-}
-
-.textMessageReceive {
-  background-color: rgb(159, 241, 214);
-  margin: 1rem 1rem 1rem 1rem;
-  border-radius: 1rem;
-  padding: 1rem;
-  overflow: hidden;
-}
-.textMessageSent {
-  background-color: rgb(152, 204, 247);
-  margin: 1rem 1rem 1rem 1rem;
-  border-radius: 1rem;
-  padding: 1rem;
-  overflow: hidden;
-}
-
-.dateTimeReceived {
-  text-align: right;
-  overflow: hidden;
-}
-
-.chatElement {
+.playListElement {
   padding: 3rem;
   border-radius: 2rem;
 }

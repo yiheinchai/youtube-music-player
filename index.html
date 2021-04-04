@@ -6,8 +6,8 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
-    <link rel="icon" href="images/icon_x144.png" />
-    <title>Whatsapp Reader</title>
+    <link rel="icon" href="images/icon_x128.png" />
+    <title>Youtube Music Player</title>
     <link rel="apple-touch-icon" href="images/icon_x144apple.png" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="style.css" />
@@ -33,6 +33,29 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/moment-with-locales.min.js"></script>
     <script type="module" src="data.js"></script>
+    <script type="module" src="script.js"></script>
+  </body>
+
+  <body>
+    <div class="container-fluid header mx-4 mb-3 mt-3">
+      <div class="row d-flex justify-content-around">
+        <div class="col-3 d-flex mt-2 justify-content-center d-none d-sm-block">
+          <h5>Fulfil your aurical needs</h5>
+        </div>
+        <div class="col-6 d-flex justify-content-center">
+          <h2>Youtube Music</h2>
+        </div>
+        <div class="col-3 d-flex justify-content-center">
+          <button type="button" class="btn btn-primary exitChat">Exit Playlist</button>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid playListLibraryContainer">
+      <h3>Playlists</h3>
+      <div class="mt-5 row d-flex justify-content-center playListLibrary"></div>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
     <script type="module" src="script.js"></script>
   </body>
 </html>

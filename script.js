@@ -1,5 +1,5 @@
 let currentPlaylist;
-const playLists = { chineseSong: 6, goodvibes: 7 };
+const playLists = { chineseSong: 6, goodvibes: 7, japaneseSong: 2, ocsSong: 15 };
 const playListNames = Object.keys(playLists);
 
 playListNames.forEach((ele, i) => {
